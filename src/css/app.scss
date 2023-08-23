@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,500;1,600;1,700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: #eff2fb;
+  font-family: "Poppins", sans-serif;
+  padding-top: constant(safe-area-inset-top); /* iOS 11.0 */
+  padding-top: env(safe-area-inset-top); /* iOS 11.2 */
+}
+
+.footer .q-footer {
+  padding-bottom: constant(safe-area-inset-bottom); /* iOS 11.0 */
+  padding-bottom: calc(2px + env(safe-area-inset-bottom)); /* iOS 11.2 */
+}
+
+.container {
+  width: 100%;
+  max-width: 1450px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: 600px) {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+.container {
+  @media screen and (max-width: $breakpoint-sm-max) {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+.product-card {
+  width: 210px;
+
+  @media (max-width: 331px) {
+    width: 46.9%;
+  }
+
+  @media (min-width: 332px) and (max-width: 511px) {
+    width: 47.5%;
+  }
+
+  @media (min-width: 512px) and (max-width: 600px) {
+    width: 48.4%;
+  }
+
+  @media (min-width: 601px) and (max-width: $breakpoint-sm-max) {
+    width: 31.5%;
+    font-size: 11px;
+  }
+}
+
+.shadow-sm {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%) !important;
+}
+.rounded-10 {
+  border-radius: 10px;
+}
+
+.underline-none {
+  text-decoration: none;
+}
+
+.q-carousel {
+  background-color: transparent !important;
+}
+
+hr {
+  background-color: #fff;
+  padding: 0;
+}
+
+hr.hr-1 {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #f3f3f4;
+}

@@ -1,2 +1,41 @@
-# 1timeused
-I have developed an E-Commerce web app for sell n purchase the daily used products named 1TimeUsed similar to Daraz. Register with a new email and use our system.   Link:  https://1timeused.com  
+# onetimeused (1timeused-quasar)
+
+shopping
+
+## Install the dependencies
+```bash
+yarn
+# or
+npm install
+```
+
+### Start the app in development mode (hot-code reloading, error reporting, etc.)
+```bash
+quasar dev
+```
+
+
+### Lint the files
+```bash
+yarn lint
+# or
+npm run lint
+```
+
+
+### Format the files
+```bash
+yarn format
+# or
+npm run format
+```
+
+
+
+### Build the app for production
+```bash
+quasar build
+```
+
+### Customize the configuration
+See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
